@@ -1,0 +1,59 @@
+﻿/* Estilos para el menú */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+    ul li {
+        float: left;
+    }
+
+        ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+            ul li a:hover {
+                background-color: #111;
+            }
+
+/* Estilos para el botón de borrar */
+#bBorrar {
+    background-color: #e74c3c; /* Rojo oscuro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0; /* Espacio entre el botón y otros elementos */
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+    #bBorrar:hover {
+        background-color: #c0392b; /* Rojo más oscuro en hover */
+    }
+
+/* Estilos para el formulario */
+form {
+    margin: 20px; /* Margen alrededor del formulario */
+}
+
+.auto-style1 {
+    font-family: Arial, sans-serif;
+}
+
+.auto-style2 {
+    padding: 20px;
+}
+
+.auto-style3 {
+    margin-left: 20px;
+}

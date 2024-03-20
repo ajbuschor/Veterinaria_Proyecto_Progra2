@@ -1,0 +1,80 @@
+﻿/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para el contenedor principal */
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos para el encabezado h1 */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos para la imagen */
+img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la lista de navegación */
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+    /* Estilos para los elementos de la lista de navegación */
+    ul.menu li {
+        margin-bottom: 10px;
+    }
+
+        ul.menu li a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 3px;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+            ul.menu li a:hover {
+                background-color: #eee;
+            }
+
+/* Estilos para los submenús */
+ul.submenu {
+    display: none;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
+}
+
+ul.menu li:hover > ul {
+    display: block;
+}
+
+ul.submenu li a {
+    color: #333;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
